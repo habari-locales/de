@@ -5,13 +5,14 @@
 # Translators:
 # Christian Gredig <transifex@konzertheld.de>, 2013
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008
+# Christian Gredig <transifex@konzertheld.de>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-19 00:00+0000\n"
-"PO-Revision-Date: 2013-05-19 08:41+0000\n"
-"Last-Translator: chrismeller <chris@doesnthaveone.com>\n"
+"POT-Creation-Date: 2013-06-30 00:00+0000\n"
+"PO-Revision-Date: 2013-07-01 12:10+0000\n"
+"Last-Translator: Christian Gredig <transifex@konzertheld.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/habari/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgid_plural "Terms %1$s in the %2$s vocabulary have been renamed to %3$s."
 msgstr[0] "Term %1$s im %2$s-Wortverzeichnis wurde zu %3$s umbenannt."
 msgstr[1] "Terme %1$s im %2$s-Wortverzeichnis wurden zu %3$s umbenannt."
 
-#: classes/url.php:222
+#: classes/url.php:223
 #, php-format
 msgid ""
 "Could not find a rule matching the following names: %s. File: %s (line %s)"
@@ -222,9 +223,9 @@ msgstr "Unbekannte XMLRPC-Ausnahme"
 
 #: classes/stackitem.php:54
 msgid "Requested property @name does not exist."
-msgstr ""
+msgstr "Angeforderte Eigenschaft @name existiert nicht."
 
-#: classes/formcontrol.php:96
+#: classes/formcontrol.php:97
 #, php-format
 msgid "The FormControl type \"%s\" is invalid."
 msgstr "Der FormControl-Typ \"%s\" ist ungültig."
@@ -784,12 +785,12 @@ msgstr "Spam"
 
 #. @locale Displayed as an icon indicating there is help text available for a
 #. plugin.
-#: classes/pluggable.php:251 classes/plugin.php:65
+#: classes/pluggable.php:257 classes/plugin.php:65
 #: handlers/adminpluginshandler.php:61 handlers/adminpluginshandler.php:113
 msgid "?"
 msgstr "?"
 
-#: classes/pluggable.php:285 plugins/undelete/undelete.plugin.php:172
+#: classes/pluggable.php:291 plugins/undelete/undelete.plugin.php:172
 #: plugins/undelete/undelete.plugin.php:184
 #: plugins/flickrsilo/flickrsilo.plugin.php:862
 #: plugins/habarisilo/habarisilo.plugin.php:65 admin/block_instances.php:17
@@ -985,7 +986,7 @@ msgstr "Zeit der Veröffentlichung"
 
 #: classes/post.php:1033
 msgid "YYYY-MM-DD HH:MM:SS"
-msgstr ""
+msgstr "JJJJ-MM-TT HH:MM:SS"
 
 #: classes/post.php:1037
 msgid "Content Address"
@@ -1041,7 +1042,7 @@ msgstr "Ein Post-Slug kann nicht leer sein. Alter Slug wird beibehalten."
 
 #: classes/post.php:1229
 msgid "The post !postname has been saved as !status."
-msgstr ""
+msgstr "Der Post !postname wurde als !status gespeichert."
 
 #: classes/post.php:1241
 #, php-format
@@ -1157,7 +1158,7 @@ msgstr "Der Benutzername für %s wird bereits verwendet."
 #: classes/formvalidators.php:132
 #, php-format
 msgid "The group %s already exists."
-msgstr ""
+msgstr "Die Gruppe %s existiert bereits."
 
 #: classes/formvalidators.php:152
 #, php-format
@@ -1382,7 +1383,7 @@ msgstr "Kommentare aller Posts verwalten"
 msgid "Manage comments on one's own posts"
 msgstr "Kommentare eigener Posts verwalten"
 
-#: classes/acl.php:908 handlers/adminhandler.php:357
+#: classes/acl.php:908 handlers/adminhandler.php:363
 msgid "Manage tags"
 msgstr "Tags verwalten"
 
@@ -1454,7 +1455,7 @@ msgstr "Superuser"
 msgid "Administration"
 msgstr "Administration"
 
-#: classes/acl.php:948 handlers/adminhandler.php:356
+#: classes/acl.php:948 handlers/adminhandler.php:362
 msgid "Comments"
 msgstr "Kommentare"
 
@@ -1732,7 +1733,7 @@ msgstr "Fotos"
 msgid "Videos"
 msgstr "Videos"
 
-#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:357
+#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:363
 msgid "Tags"
 msgstr "Tags"
 
@@ -1768,7 +1769,7 @@ msgstr "Möchtest du die <a href=\"%1$s\">Autorisierung widerrufen</a>?"
 msgid ""
 "To use this plugin, you must <a href=\"%1$s\">authorize Habari to access "
 "your Flickr account</a>."
-msgstr ""
+msgstr "Um dieses Plugin zu benutzen, musst du Habari <a href=\"%1$s\">autorisieren, deinen Flickr-Account zu benutzen</a>."
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:884
 #, php-format
@@ -1783,7 +1784,7 @@ msgid ""
 "Data submission was unsuccessful and it could not be determined if you have "
 "already authorized Habari to access your flickr account, or you have not yet"
 " done so. Please <a href=\"%1$s\">try again</a>."
-msgstr ""
+msgstr "Die Datenübertragung war nicht erfolgreich und es konnte nicht ermittelt werden, ob du Habari schon autorisiert hast, deinen Flickr-Account zu benutzen, oder nicht. Bitte <a href=\"%1$s\">versuche es erneut</a>."
 
 #: plugins/flickrsilo/flickrsilo.plugin.php:904
 msgid "Your authorization was set successfully."
@@ -1964,7 +1965,7 @@ msgstr "Tabellen-Prefix"
 msgid "Import Categories as Tags"
 msgstr "Kategorien als Tags importieren"
 
-#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:362
+#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:368
 #: admin/import.php:11
 msgid "Import"
 msgstr "Import"
@@ -2410,7 +2411,7 @@ msgstr "Liste"
 msgid "Links to show:"
 msgstr "Anzuzeigende Links:"
 
-#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:367
+#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:373
 msgid "Logout"
 msgstr "Abmelden"
 
@@ -2432,7 +2433,7 @@ msgstr "Inhalt:"
 #: plugins/coreblocks/block.recent_comments.php:17
 #, php-format
 msgid "%1$s on %2$s"
-msgstr ""
+msgstr "%1$s zu %2$s"
 
 #: plugins/habarisilo/habarisilo.plugin.php:36
 #: plugins/habarisilo/habarisilo.plugin.php:37
@@ -2449,23 +2450,23 @@ msgstr "Aktivierung des Habari-Silos fehlgeschlagen. PHP konnte die GD Imaging L
 
 #: plugins/habarisilo/habarisilo.plugin.php:72
 msgid "Max thumbnail width:"
-msgstr ""
+msgstr "Maximale Miniaturbildbreite:"
 
 #: plugins/habarisilo/habarisilo.plugin.php:73
 msgid "Only numbers may be entered for thumbnail width."
-msgstr ""
+msgstr "Für die Miniaturbildbreite dürfen nur Zahlen eingegeben werden."
 
 #: plugins/habarisilo/habarisilo.plugin.php:74
 msgid "Max thumbnail height:"
-msgstr ""
+msgstr "Maximale Miniaturbildhöhe:"
 
 #: plugins/habarisilo/habarisilo.plugin.php:75
 msgid "Only numbers may be entered for thumbnail height."
-msgstr ""
+msgstr "Für die Miniaturbildhöhe dürfen nur Zahlen eingegeben werden."
 
 #: plugins/habarisilo/habarisilo.plugin.php:76
 msgid "Always create square thumbnails (pad with black if not high enough):"
-msgstr ""
+msgstr "Immer quadratische Miniaturbilder erzeugen (mit schwarz auffüllen, falls nicht hoch genug):"
 
 #: plugins/habarisilo/habarisilo.plugin.php:90
 msgid "Create media silo directories"
@@ -2654,7 +2655,7 @@ msgstr "Markierte löschen"
 
 #: handlers/adminusershandler.php:77
 msgid "User Information"
-msgstr ""
+msgstr "Benutzerinformationen"
 
 #: handlers/adminusershandler.php:78
 msgid "Change Password"
@@ -2664,7 +2665,7 @@ msgstr "Passwort ändern"
 msgid "Regional Settings"
 msgstr "Regionale Einstellungen"
 
-#: handlers/adminusershandler.php:80 handlers/adminhandler.php:358
+#: handlers/adminusershandler.php:80 handlers/adminhandler.php:364
 msgid "Dashboard"
 msgstr "Übersicht"
 
@@ -2717,7 +2718,7 @@ msgstr "Die Anzahl der Spam-Kommentare auf der Übersichtsseite verstecken"
 msgid "Hide Spam Count"
 msgstr "Spam-Anzahl verstecken"
 
-#: handlers/adminusershandler.php:154 handlers/adminhandler.php:365
+#: handlers/adminusershandler.php:154 handlers/adminhandler.php:371
 msgid "Groups"
 msgstr "Gruppen"
 
@@ -2742,32 +2743,32 @@ msgstr "Benutzer nicht gefunden!"
 msgid "Access to that page has been denied by the administrator."
 msgstr "Der Zugriff auf diese Seite wurde vom Administrator gesperrt."
 
-#: handlers/adminusershandler.php:230 handlers/adminhandler.php:364
+#: handlers/adminusershandler.php:230 handlers/adminhandler.php:370
 msgid "My Profile"
 msgstr "Mein Profil"
 
 #: handlers/adminusershandler.php:230
 #, php-format
 msgid "User Profile for %s"
-msgstr ""
+msgstr "Benutzerprofil für %s"
 
 #: handlers/adminusershandler.php:249
 msgid "You have insufficient permissions to manage your own user account."
-msgstr ""
+msgstr "Du hast unzureichende Berechtigungen um deinen eigenen Benutzeraccount zu verwalten."
 
 #: handlers/adminusershandler.php:254
 msgid "You have insufficient permissions to manage users."
-msgstr ""
+msgstr "Du hast unzureichende Berechtigungen um Benutzer zu verwalten."
 
 #: handlers/adminusershandler.php:273 handlers/adminusershandler.php:481
 msgid "You have insufficient permissions to delete users."
-msgstr ""
+msgstr "Du hast unzureichende Berechtigungen um Benutzer zu löschen."
 
 #: handlers/adminusershandler.php:277 handlers/adminusershandler.php:486
 #: handlers/adminusershandler.php:508
 msgid ""
 "You may not assign posts from deleted users to a user that is being deleted"
-msgstr ""
+msgstr "Du darfst Posts eines gelöschten Benutzers keinem zu löschenden Benutzer zuordnen."
 
 #: handlers/adminusershandler.php:316
 #, php-format
@@ -2777,7 +2778,7 @@ msgstr "%s wurde gelöscht"
 #: handlers/adminusershandler.php:319
 #, php-format
 msgid "There was a problem deleting %s"
-msgstr ""
+msgstr "Es gab ein Problem beim Löschen von %s"
 
 #: handlers/adminusershandler.php:338
 #, php-format
@@ -2794,7 +2795,7 @@ msgstr "Benutzer aktualisiert."
 
 #: handlers/adminusershandler.php:448
 msgid "You have insufficient permissions to add users."
-msgstr ""
+msgstr "Du hast unzureichende Berechtigungen um Benutzer hinzuzufügen."
 
 #: handlers/adminusershandler.php:462
 #, php-format
@@ -2803,7 +2804,7 @@ msgstr "Benutzer '%s' hinzugefügt"
 
 #: handlers/adminusershandler.php:490
 msgid "No users selected to delete!"
-msgstr ""
+msgstr "Keine Benutzer zum Löschen ausgewählt!"
 
 #: handlers/adminusershandler.php:515
 msgid "No users deleted."
@@ -2813,12 +2814,12 @@ msgstr "Keine Benutzer gelöscht."
 #, php-format
 msgid "Deleted one user."
 msgid_plural "Deleted %s users."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ein Benutzer gelöscht."
+msgstr[1] "%s Benutzer gelöscht."
 
 #: handlers/adminusershandler.php:548
 msgid "There was a problem deleting users."
-msgstr ""
+msgstr "Es gab ein Problem beim Löschen von Benutzern."
 
 #: handlers/atomhandler.php:143
 msgid "First Page"
@@ -2889,155 +2890,155 @@ msgid ""
 "We saved the last form you posted. Log back in to continue its submission."
 msgstr "Wir haben das letzte von dir ausgefüllte Formular gespeichert. Melde dich wieder an, um die Übertragung fortzusetzen."
 
-#: handlers/adminhandler.php:157
+#: handlers/adminhandler.php:162
 #, php-format
 msgid "%1$s->%2$s() does not exist."
 msgstr "%1$s->%2$s() existiert nicht."
 
-#: handlers/adminhandler.php:179
+#: handlers/adminhandler.php:184
 msgid "The page you were looking for was not found."
 msgstr "Die gesuchte Seite konnte nicht gefunden werden."
 
-#: handlers/adminhandler.php:227 handlers/adminhandler.php:229
+#: handlers/adminhandler.php:233 handlers/adminhandler.php:235
 msgid "Habari Version"
 msgstr "Habari-Version"
 
-#: handlers/adminhandler.php:232
+#: handlers/adminhandler.php:238
 msgid "Habari API Version"
 msgstr "Habari API-Version"
 
-#: handlers/adminhandler.php:233
+#: handlers/adminhandler.php:239
 msgid "Habari DB Version"
 msgstr "Habari Datenbank-Version"
 
-#: handlers/adminhandler.php:234
+#: handlers/adminhandler.php:240
 msgid "Active Theme"
 msgstr "Aktives Theme"
 
-#: handlers/adminhandler.php:235 handlers/adminoptionshandler.php:106
+#: handlers/adminhandler.php:241 handlers/adminoptionshandler.php:106
 msgid "System Locale"
 msgstr "System-Gebietsschema"
 
-#: handlers/adminhandler.php:236
+#: handlers/adminhandler.php:242
 msgid "Cache Class"
 msgstr "Cache-Klasse"
 
-#: handlers/adminhandler.php:240
+#: handlers/adminhandler.php:246
 msgid "PHP Version"
 msgstr "PHP-Version"
 
-#: handlers/adminhandler.php:241
+#: handlers/adminhandler.php:247
 msgid "Server Software"
 msgstr "Server-Software"
 
-#: handlers/adminhandler.php:242
+#: handlers/adminhandler.php:248
 msgid "Database"
 msgstr "Datenbank"
 
-#: handlers/adminhandler.php:243
+#: handlers/adminhandler.php:249
 msgid "PHP Extensions"
 msgstr "PHP-Erweiterungen"
 
-#: handlers/adminhandler.php:244
+#: handlers/adminhandler.php:250
 msgid "PHP Configuration Settings"
 msgstr "PHP-Konfigurationseinstellungen"
 
-#: handlers/adminhandler.php:245
+#: handlers/adminhandler.php:251
 msgid "Browser"
 msgstr "Browser"
 
-#: handlers/adminhandler.php:276 admin/sysinfo.php:3 admin/sysinfo.php:8
+#: handlers/adminhandler.php:282 admin/sysinfo.php:3 admin/sysinfo.php:8
 #: admin/sysinfo.php:9 admin/footer.php:22
 msgid "System Information"
 msgstr "Systeminformationen"
 
-#: handlers/adminhandler.php:331
+#: handlers/adminhandler.php:337
 #, php-format
 msgid "Create a new %s"
 msgstr "Einen neuen %s erstellen"
 
-#: handlers/adminhandler.php:335
+#: handlers/adminhandler.php:341
 #, php-format
 msgid "Manage %s"
 msgstr "%s verwalten"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "Create content"
 msgstr "Inhalt erstellen"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "New"
 msgstr "Neu"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage content"
 msgstr "Inhalt verwalten"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage"
 msgstr "Verwalten"
 
-#: handlers/adminhandler.php:356
+#: handlers/adminhandler.php:362
 msgid "Manage comments"
 msgstr "Kommentare verwalten"
 
-#: handlers/adminhandler.php:358
+#: handlers/adminhandler.php:364
 msgid "View your user dashboard"
 msgstr "Deine Benutzerübersicht anzeigen"
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "View and configure site options"
 msgstr "Website-Einstellungen anzeigen und konfigurieren"
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "Options"
 msgstr "Einstellungen"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Preview and activate themes"
 msgstr "Designs anzeigen und aktivieren"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Themes"
 msgstr "Themen"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Activate, deactivate, and configure plugins"
 msgstr "Plugins aktivieren, deaktivieren und konfigurieren"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Plugins"
 msgstr "Plugins"
 
-#: handlers/adminhandler.php:362
+#: handlers/adminhandler.php:368
 msgid "Import content from another site"
 msgstr "Inhalte von einer anderen Website importieren"
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "View and manage users"
 msgstr "Benutzer anzeigen und verwalten"
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "Users"
 msgstr "Benutzer"
 
-#: handlers/adminhandler.php:364
+#: handlers/adminhandler.php:370
 msgid "Manage your user profile"
 msgstr "Verwalte dein Benutzerprofil"
 
-#: handlers/adminhandler.php:365
+#: handlers/adminhandler.php:371
 msgid "View and manage groups"
 msgstr "Gruppen ansehen und verwalten"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "View system log messages"
 msgstr "Systemlog ansehen"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "Logs"
 msgstr "Protokolle"
 
-#: handlers/adminhandler.php:367
+#: handlers/adminhandler.php:373
 msgid "Log out of the administration interface"
 msgstr "Von der Administrationsoberfläche abmelden"
 
@@ -3051,7 +3052,7 @@ msgstr "Gruppenname"
 
 #: handlers/admingroupshandler.php:57
 msgid "You have insufficient permissions to add groups."
-msgstr ""
+msgstr "Du hast unzureichende Berechtigungen um Gruppen zu löschen."
 
 #: handlers/admingroupshandler.php:70 handlers/admingroupshandler.php:325
 #, php-format
@@ -3098,7 +3099,7 @@ msgid "Habari successfully installed."
 msgstr "Habari wurde erfolgreich installiert."
 
 #: handlers/installhandler.php:228 handlers/adminpluginshandler.php:97
-#: handlers/adminpluginshandler.php:101 admin/themes.php:130
+#: handlers/adminpluginshandler.php:101 admin/themes.php:126
 msgid "Activate"
 msgstr "Aktivieren"
 
@@ -3137,7 +3138,7 @@ msgstr "Problem die Standard-Post-Typen anzulegen"
 
 #: handlers/installhandler.php:498
 msgid "Problem creating base comment types and statuses"
-msgstr ""
+msgstr "Problem beim Erstellen der grundlegenden Kommentartypen und -status."
 
 #: handlers/installhandler.php:509
 msgid "Problem creating admin user."
@@ -3389,7 +3390,7 @@ msgstr "%d Logs gelöscht."
 
 #: handlers/adminlogshandler.php:165
 msgid "There was a problem purging the event logs."
-msgstr ""
+msgstr "Es gab ein Problem beim Leeren des Protokolls."
 
 #: handlers/adminlogshandler.php:169
 msgid "Purge Logs"
@@ -3528,7 +3529,7 @@ msgstr[1] "%d Kommentare nicht genehmigt"
 
 #: handlers/userhandler.php:30
 msgid "You must supply a username to reset its password."
-msgstr ""
+msgstr "Du musst einen Benutzernamen angeben um dessen Passwort zurückzusetzen."
 
 #: handlers/userhandler.php:38
 #, php-format
@@ -3684,11 +3685,11 @@ msgstr "Hilfe"
 
 #: handlers/adminpluginshandler.php:226
 msgid "Activated plugin '@plugin'"
-msgstr ""
+msgstr "Plugin \"@plugin\" aktiviert"
 
 #: handlers/adminpluginshandler.php:235
 msgid "Deactivated plugin '@plugin'"
-msgstr ""
+msgstr "Plugin \"@plugin\" deaktiviert"
 
 #: handlers/adminpostshandler.php:51
 #, php-format
@@ -3752,7 +3753,7 @@ msgstr "Ältere Posts"
 
 #: themes/mzingi/theme.php:132
 msgid "Newer Reults"
-msgstr ""
+msgstr "Neuere Ergebnisse"
 
 #: themes/mzingi/theme.php:137
 msgid "Older Reults"
@@ -3784,7 +3785,7 @@ msgstr "Nachricht: (Benötigt)"
 
 #: themes/mzingi/theme.php:198
 msgid "User name"
-msgstr ""
+msgstr "Benutzername"
 
 #: themes/wazi/comment.php:17
 msgid "Link to this comment"
@@ -4470,7 +4471,7 @@ msgstr "Es ist ein Fehler aufgetreten"
 
 #: index.php:112
 msgid "Unable to connect to database.  Error message: @error"
-msgstr ""
+msgstr "Konnte nicht zur Datenbank verbinden. Fehler: @error"
 
 #: index.php:113
 msgid "Unable to connect to database."
@@ -4881,7 +4882,7 @@ msgstr "Zeige '%s'"
 #: admin/posts_items.php:47 admin/groups_item.php:21
 #, php-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "\"%s\" löschen"
 
 #: admin/posts_items.php:64
 msgid "No posts could be found to match the query criteria."
@@ -5071,7 +5072,7 @@ msgstr "∨"
 msgid "Update Available"
 msgstr "Update verfügbar"
 
-#: admin/themes.php:52 admin/themes.php:142
+#: admin/themes.php:52 admin/themes.php:146
 #, php-format
 msgid "%1$s is licensed under the %2$s"
 msgstr "%1$s ist unter der %2$s lizensiert"
@@ -5097,11 +5098,11 @@ msgstr "Altthema."
 msgid "This theme requires the parent theme named \"%s\"."
 msgstr "Dieses Theme erfordert das übergeordnete Theme '%s'."
 
-#: admin/themes.php:126
+#: admin/themes.php:128
 msgid "End Preview"
 msgstr "Vorschau beenden"
 
-#: admin/themes.php:128
+#: admin/themes.php:131
 msgid "Preview"
 msgstr "Vorschau"
 
