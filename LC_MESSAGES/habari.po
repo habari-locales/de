@@ -5,14 +5,15 @@
 # Translators:
 # Christian Gredig <transifex@konzertheld.de>, 2013
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008
+# Area55 <tropy.ts@gmail.com>, 2013
 # Christian Gredig <transifex@konzertheld.de>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Habari\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-30 00:00+0000\n"
-"PO-Revision-Date: 2013-07-01 12:10+0000\n"
-"Last-Translator: Christian Gredig <transifex@konzertheld.de>\n"
+"PO-Revision-Date: 2013-08-03 23:19+0000\n"
+"Last-Translator: Area55 <tropy.ts@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/habari/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3757,7 +3758,7 @@ msgstr "Neuere Ergebnisse"
 
 #: themes/mzingi/theme.php:137
 msgid "Older Reults"
-msgstr ""
+msgstr "ältere Resultate"
 
 #: themes/mzingi/theme.php:159
 msgid "Go!"
